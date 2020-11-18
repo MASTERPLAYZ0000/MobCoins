@@ -16,6 +16,8 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\entity\Zombie;
 
+class Main extends PluginBase implements Listener {
+
    public $cfg;
 
    public function onEnable() {
@@ -200,3 +202,4 @@ use pocketmine\entity\Zombie;
                     return true;
             }
       }
+}

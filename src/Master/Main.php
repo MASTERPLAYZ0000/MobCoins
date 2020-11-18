@@ -198,8 +198,7 @@ class Main extends PluginBase implements Listener {
                                         $sender->sendMessage(TF::GREEN . "[MobCoins] Usage: /mc take [Admin]");
                                         $sender->sendMessage(TF::GREEN . "[MobCoins] Usage: /mc coins");
                                     }
-                    }
-                    return true;
-            }
-      }
-}
+                             }
+                     }
+                 return true;           
+              }
